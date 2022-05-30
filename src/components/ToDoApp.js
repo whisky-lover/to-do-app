@@ -4,9 +4,7 @@ import ToDoForm from "./ToDoForm";
 import ToDoList from "./ToDoList";
 
 const ToDoApp = () => {
-	const [items, setItems] = useState([
-		{ id: 1, title: "Do something", isDone: true },
-	]);
+	const [items, setItems] = useState([]);
 
 	const addItem = (newItem) => {
 		const newItems = [...items, newItem];
